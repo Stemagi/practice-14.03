@@ -3,7 +3,7 @@ import Jokes from "./jokes";
 export default function(){
   return(
     <div>
-      <h1>funny jokes))</h1>
+      <h1>Funny jokes))</h1>
       <hr />
       <Jokes 
       joke="I got my daughter a fridge for her birthday."
@@ -24,6 +24,10 @@ export default function(){
       <Jokes 
       joke="What's the best thing about Switzerland?" 
       punchline="I don't know, but the flag is a big plus!" 
+      />
+      <Jokes 
+      punchline="It’s hard to explain puns to kleptomaniacs because 
+      they always take things literally."
       />
     </div>
   )

@@ -2,8 +2,8 @@ import React from "react";
 export default function Jokes(props){
   return(
   <div>
-    <h3>{props.joke}</h3>
-    <p>{props.punchline}</p>
+    {props.joke &&  <h3>Setup {props.joke}</h3>}
+    <p>Punchline {props.punchline}</p>
     <hr />
   </div>
   )
